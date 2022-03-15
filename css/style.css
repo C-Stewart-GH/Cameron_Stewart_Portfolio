@@ -332,7 +332,7 @@ textarea {
     padding: 4rem;
     margin-top: 6rem;
     max-width: 80rem;
-    text-align: right;
+    text-align: center;
     width: 95%;
     border-radius: 5px;
     margin: 5rem auto 0 auto; }
@@ -397,6 +397,7 @@ textarea {
   .contact__btn {
     width: 30%;
     padding: 2rem 4rem;
+    /* text-transform: none; */
     font-size: 1.6rem; }
     @media only screen and (max-width: 37.5em) {
       .contact__btn {
