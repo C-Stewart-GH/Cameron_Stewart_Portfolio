@@ -22,7 +22,7 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="https://github.com/C-Stewart-GH/Cameron_Stewart_Portfolio/blob/main/assets/png/cameron-stewart.png?raw=true"
+              src="./assets/png/cameron-stewart.png"
               alt="CS"
               class="header__logo-img"
             />
@@ -105,7 +105,7 @@
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="https://github.com/C-Stewart-GH/C-Stewart-GH.github.io" class="home-hero__social-icon-link">
+          <a href="https://github.com/C-Stewart-GH" class="home-hero__social-icon-link">
             <img
               src="./assets/png/github-ico.png"
               alt="icon"
@@ -218,7 +218,7 @@
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            Below, I have included both personal and academic projects. Feel free to reach out if you have any questions or if you would like to learn more.
+            Below, I have included both personal and academic projects. For high level information on other projects that can not be publicly shared, please review my <a style= "color:blue; text-decoration: underline;" href="./assets/Cameron_Stewart_Resume.pdf">resume</a>. Feel free to reach out if you have any questions or if you would like to learn more.
           </span>
         </h2>
 
@@ -226,72 +226,168 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./Images/Time_Series.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1</h3>
+              <h3 class="projects__row-content-title">Time Series Forecasting of Texas Covid Cases</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                This project utilizes R time series packages tswge and tseries to forecast Texas Covid Cases both one and three weeks ahead.
+                Using ARIMA, Vector Autoregressive(VAR), Multi-Layer Perceptron, and Ensemble models, I was able to estimate the count of Covid Cases and provide a confidence interval for forecasts. 
+                Relevant features were extracted from Texas Department of State Health and Google Mobility Data.
               </p>
               <a
-                href="./project-1.html"
+                href="https://github.com/C-Stewart-GH/Forecasting_Texas_Covid_Case_Count"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >GitHub Repository</a
               >
             </div>
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./Images/Horse_Racing.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
+              <h3 class="projects__row-content-title">Hong Kong Horse Racing Performance Classification using Machine Learning Methods</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                Utilizing Python's Scikit-Learn, this project classifies whether a horse will win or show in a given race from Kaggle's Hong Kong Horse Racing Dataset. 
+                Methods used: Logistic Regression, KNN, Naive Bayes, Random Forest, and Support Vector Machines. 
+                To create additional features for classification, clustering methods were used such as: K-Means, DBSCAN, and Spectral Clustering
               </p>
               <a
-                href="./project-2.html"
+                href="https://github.com/C-Stewart-GH/Hong_Kong_Horse_Racing_Project"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >GitHub Repository</a
               >
             </div>
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./Images/Predicting_Income.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
+              <h3 class="projects__row-content-title">Predicting Income from Census Data</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                Using U.S. Census Data, this project predicts whether an individual will earn more or less than $50K in 1994. 
+                The data was analyzed in R and used methods such as: Logistic Regression, Quadratic Discriminant Analysis(QDA), and Random Forest.
               </p>
               <a
-                href="./project-3.html"
+                href="https://github.com/C-Stewart-GH/Predicting_Income"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >GitHub Repository</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./Images/NLP.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Natural Language Processing Projects</h3>
+              <p class="projects__row-content-desc">
+                This is a series of projects that explore utilizing web scraping and Natural Language Processing(NLP) tools to gather insights. 
+                The projects are performed using Python and utilize packages such as: NLTK, SpaCy, Flair, and BeautifulSoup. 
+                The NLP activities include: Part of Speech Tagging, Chunking, Stemming, Lemmatizing, Text Similarity Comparison, Corpus Clustering, and Sentiment Analysis.
+              </p>
+              <a
+                href="https://github.com/C-Stewart-GH/Natural_Language_Processing_Projects"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >GitHub Repository</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./Images/Attrition.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Predicting Employee Attrition and Income</h3>
+              <p class="projects__row-content-desc">
+                This project predicts attrition and income for employees at a hypothetical company. The analysis for this project uses R.
+                Using KNN and Naive Bayes models, I was able to classify which employees were planning to leave in the near future within the requested targets. 
+                By creating a Multiple Linear Regression model, I was able to predict employee income within the requested targets.
+              </p>
+              <a
+                href="https://github.com/C-Stewart-GH/Attrition_and_Income_Prediction_Case_Study"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >GitHub Repository</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./Images/Data_Lake.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Data Lake vs. Data Warehouse Use Case Analysis</h3>
+              <p class="projects__row-content-desc">
+                This project dives into the differences and uses cases for Data Lakes and Data Warehouses. 
+                Using MySQL to create an example Data Warehouse and MongoDB to create a Data Lake, the project demonstrates the functionality differences. 
+                The repositories contain Twitter data collected using Python's tweepy and automatically transferred the data to each repository using the packages mysql.connector and pymongo.
+                With SQL and MongoShell, I was able to compare queries of the data.
+              </p>
+              <a
+                href="https://github.com/C-Stewart-GH/Data_Lake_Analysis_Project"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >GitHub Repository</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./Images/Database.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Database Management Projects</h3>
+              <p class="projects__row-content-desc">
+                This is a series of mini-projects that explores database management in MySQL and MongoDB. 
+                The projects include creating entity-relationship diagrams, database creation/manipulation, and querying databases. 
+                The queries are performed using SQL and MongoShell.
+              </p>
+              <a
+                href="https://github.com/C-Stewart-GH/Database_Management_Projects"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >GitHub Repository</a
               >
             </div>
           </div>
@@ -370,7 +466,7 @@
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/C-Stewart-GH/C-Stewart-GH.github.io">
+              <a target="_blank" rel="noreferrer" href="https://github.com/C-Stewart-GH">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
@@ -408,9 +504,8 @@
           </div>
         </div>
 
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
-          Acknowledgements: Portfolio inspired by Ram Maheshwari's template
+          Acknowledgements: Portfolio modified from Ram Maheshwari's template
         </div>
       </div>
     </footer>
